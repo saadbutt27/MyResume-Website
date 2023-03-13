@@ -6,7 +6,7 @@ import AboutImage from "../../../public/images/pic1-removebg-preview-crop-remove
 const About = () => {
   return (
     <>
-      <section className="py-24">
+      <section className="py-16">
         <Wrapper>
           <div className="text-center">
             <h2 className="relative text-4xl font-semibold mb-16 pb-5 before:content-[''] before:absolute before:bottom-0 before:left-[50%] before:w-44 before:h-1 before:bg-black before:-translate-x-2/4 after:content-['who_i_am'] after:absolute after:-bottom-3 after:left-[50%] after:text-lg after:text-red-600 after:p-1 after:bg-white after:-translate-x-2/4">
