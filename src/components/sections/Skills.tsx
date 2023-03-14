@@ -1,17 +1,12 @@
-import Link from "next/link";
 import Wrapper from "../Wrapper";
-import Button from "../sharedComponents/Button";
+import Heading from "../sharedComponents/Heading"
 import MySkill from "../sharedComponents/Skill";
 const About = () => {
   return (
     <>
       <section className="py-10">
         <Wrapper>
-          <div className="text-center">
-            <h2 className="relative text-4xl font-semibold mb-16 pb-5 before:content-[''] before:absolute before:bottom-0 before:left-[50%] before:w-44 before:h-1 before:bg-black before:-translate-x-2/4 after:content-['what_i_know'] after:absolute after:-bottom-3 after:left-[50%] after:text-lg after:text-red-600 after:p-1 after:bg-white after:-translate-x-2/4">
-              My Skills
-            </h2>
-          </div>
+          <Heading title={"My Skills"} text={"what_i_know"} />
           <div className="flex flex-col lg:flex-row justify-between items-center">
             <div className="w-[100%] lg:w-[50%] flex flex-col items-center my-0 mx-[40px] lg:block lg:my-auto">
                 <MySkill skill={"HTML"} strength={"80%"}/>

@@ -18,7 +18,7 @@ const HeroSection = () => {
                 Saad Nisar Butt
               </p>
               <p className="text-2xl md:text-4xl leading-snug font-semibold mb-2 md:mb-4">
-                And, I'm a <span className="text-red-600 font-bold">Web Developer</span>
+                And, I&apos;m a <span className="text-red-600 font-bold">Web Developer</span>
               </p>
               <div className="mt-6">
                 <Button text={"Hire me"} />
