@@ -15,7 +15,7 @@ const Education = () => {
           </div>
           {/* <Heading title={"My Education"} text={"what_i_done"} /> */}
 
-          <div className="flex flex-col lg:flex-row -mx-4">
+          <div className="flex flex-col lg:flex-row -mx-0 lg-mx-4">
             <div className="w-full max-w-full py-0 px-4 mb-6 lg:mb-auto">
               <div className="border-2 rounded-lg shadow-xl py-8 px-6">
                 <span className="text-sm text-red-600 font-semibold mb-2">
