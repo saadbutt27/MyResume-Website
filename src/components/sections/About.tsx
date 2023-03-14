@@ -7,7 +7,7 @@ import AboutImage from "../../../public/images/pic1-removebg-preview-crop-remove
 const About = () => {
   return (
     <>
-      <section className="py-16">
+      <section className="py-16" id="about">
         <Wrapper>
           <div className="text-center">
             <h2
@@ -25,7 +25,7 @@ const About = () => {
                 className="h-[350px] w-[350px] lg:h-[400px] lg:w-[400px] rounded-md object-cover"
               />
             </div>
-            <div className="w-[100%] lg:w-[55%] mt-6 px-10 lg:px-0">
+            <div className="w-[100%] lg:w-[55%] mt-6 px-6 lg:px-0">
               <h3 className="text-2xl lg:text-2xl font-semibold mb-4">
                 I&apos;m Saad and I&apos;m a{" "}
                 <span className="text-red-600">Developer</span>

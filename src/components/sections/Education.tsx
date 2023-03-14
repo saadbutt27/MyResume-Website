@@ -4,7 +4,7 @@ import Wrapper from "../Wrapper";
 const Education = () => {
   return (
     <>
-      <section className="py-16">
+      <section className="px- py-16">
         <Wrapper>
           <div className="text-center">
             <h2
@@ -15,8 +15,8 @@ const Education = () => {
           </div>
           {/* <Heading title={"My Education"} text={"what_i_done"} /> */}
 
-          <div className="flex flex-col lg:flex-row -mx-3">
-            <div className="max-w-full py-0 px-4 mb-6 mx-4 lg:mb-auto lg:mx-auto">
+          <div className="flex flex-col lg:flex-row">
+            <div className="max-w-full py-0 px-4 mb-6 lg:mb-auto">
               <div className="border-2 rounded-lg shadow-xl py-8 px-6">
                 <span className="text-sm text-red-600 font-semibold mb-2">
                   Nov 1, 2021
@@ -24,12 +24,11 @@ const Education = () => {
                 <h3 className="text-xl font-bold mb-1">BS Computer Science</h3>
                 <h4 className="text-base italic">DHA SUFFA University</h4>
                 <p className="text-base text-slate-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  In university, I'm learning about different fields of computer science so that I can have a decision for my carrer in the tech with knowledge based decision.
                 </p>
               </div>
             </div>
-            <div className="max-w-full py-0 px-4 mb-6 mx-4 lg:mb-auto lg:mx-auto">
+            <div className="max-w-full py-0 px-4 mb-6 lg:mb-auto">
               <div className="border-2 rounded-lg shadow-xl py-8 px-6">
                 <span className="text-sm text-red-600 font-semibold mb-2">
                   Sept - Dec, 2020
@@ -37,23 +36,24 @@ const Education = () => {
                 <h3 className="text-xl font-bold mb-1">Web Developement</h3>
                 <h4 className="text-base italic">Aptech DHA Center</h4>
                 <p className="text-base text-slate-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  This short course was the begining of my journey into tech.
+                  There I learned HTML, CSS & some Javascript and then started
+                  practicing to learn more.
                 </p>
               </div>
             </div>
-            <div className="max-w-full py-0 px-4 mb-6 mx-4 lg:mb-auto lg:mx-auto">
+            <div className="max-w-full py-0 px-4 mb-6 lg:mb-auto">
               <div className="border-2 rounded-lg shadow-xl py-8 px-6">
                 <span className="text-sm text-red-600 font-semibold mb-2">
                   2018 - 2020
                 </span>
                 <h3 className="text-xl font-bold mb-1">
-                  Intermediate (Pre-Engineering)
+                  Intermediate (Pre-Eng)
                 </h3>
                 <h4 className="text-base italic">Cadet College Petaro</h4>
                 <p className="text-base text-slate-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  During my college years, I've faced many challenges for the
+                  hostel and strict disciplined life being a cadet.
                 </p>
               </div>
             </div>

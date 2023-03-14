@@ -16,7 +16,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href={"#"} className="ml-8">
+                  <Link href={"#about"} className="ml-8">
                     About
                   </Link>
                 </li>
