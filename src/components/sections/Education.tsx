@@ -24,7 +24,7 @@ const Education = () => {
                 <h3 className="text-xl font-bold mb-1">BS Computer Science</h3>
                 <h4 className="text-base italic">DHA SUFFA University</h4>
                 <p className="text-base text-slate-500 mt-2">
-                  In university, I'm learning about different fields of computer science so that I can have a decision for my carrer in the tech with knowledge based decision.
+                  In university, I&apos;m learning about different fields of computer science so that I can have a decision for my carrer in the tech with knowledge based decision.
                 </p>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Education = () => {
                 </h3>
                 <h4 className="text-base italic">Cadet College Petaro</h4>
                 <p className="text-base text-slate-500 mt-2">
-                  During my college years, I've faced many challenges for the
+                  During my college years, I&apos;ve faced many challenges for the
                   hostel and strict disciplined life being a cadet.
                 </p>
               </div>
