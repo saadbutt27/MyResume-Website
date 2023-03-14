@@ -4,7 +4,7 @@ import Wrapper from "../Wrapper";
 const Education = () => {
   return (
     <>
-      <section className="px- py-16">
+      <section className="py-16">
         <Wrapper>
           <div className="text-center">
             <h2
@@ -15,8 +15,8 @@ const Education = () => {
           </div>
           {/* <Heading title={"My Education"} text={"what_i_done"} /> */}
 
-          <div className="flex flex-col lg:flex-row">
-            <div className="max-w-full py-0 px-4 mb-6 lg:mb-auto">
+          <div className="flex flex-col lg:flex-row -mx-4">
+            <div className="w-full max-w-full py-0 px-4 mb-6 lg:mb-auto">
               <div className="border-2 rounded-lg shadow-xl py-8 px-6">
                 <span className="text-sm text-red-600 font-semibold mb-2">
                   Nov 1, 2021
@@ -28,7 +28,7 @@ const Education = () => {
                 </p>
               </div>
             </div>
-            <div className="max-w-full py-0 px-4 mb-6 lg:mb-auto">
+            <div className="w-full max-w-full py-0 px-4 mb-6 lg:mb-auto">
               <div className="border-2 rounded-lg shadow-xl py-8 px-6">
                 <span className="text-sm text-red-600 font-semibold mb-2">
                   Sept - Dec, 2020
@@ -42,7 +42,7 @@ const Education = () => {
                 </p>
               </div>
             </div>
-            <div className="max-w-full py-0 px-4 mb-6 lg:mb-auto">
+            <div className="w-full max-w-full py-0 px-4 mb-6 lg:mb-auto">
               <div className="border-2 rounded-lg shadow-xl py-8 px-6">
                 <span className="text-sm text-red-600 font-semibold mb-2">
                   2018 - 2020
@@ -53,7 +53,7 @@ const Education = () => {
                 <h4 className="text-base italic">Cadet College Petaro</h4>
                 <p className="text-base text-slate-500 mt-2">
                   During my college years, I&apos;ve faced many challenges for the
-                  hostel and strict disciplined life being a cadet.
+                  hostel and strict disciplined life being a cadet. I was in athletics and took part in horse-riding shooting and archery.
                 </p>
               </div>
             </div>
