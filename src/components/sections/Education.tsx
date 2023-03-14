@@ -1,12 +1,19 @@
 import Wrapper from "../Wrapper";
-import Heading from "../sharedComponents/Heading";
+// import Heading from "../sharedComponents/Heading";
 
 const Education = () => {
   return (
     <>
       <section className="py-16">
         <Wrapper>
-          <Heading title={"My Education"} text={"what_i_done"} />
+          <div className="text-center">
+            <h2
+              className={`relative text-4xl font-semibold mb-16 pb-5 before:content-[''] before:absolute before:bottom-0 before:left-[50%] before:w-44 before:h-1 before:bg-black before:-translate-x-2/4 after:content-['what_i_done'] after:absolute after:-bottom-3 after:left-[50%] after:text-lg after:text-red-600 after:p-1 after:bg-white after:-translate-x-2/4`}
+            >
+              My Education
+            </h2>
+          </div>
+          {/* <Heading title={"My Education"} text={"what_i_done"} /> */}
 
           <div className="flex flex-col lg:flex-row -mx-3">
             <div className="max-w-full py-0 px-4 mb-6 mx-4 lg:mb-auto lg:mx-auto">
