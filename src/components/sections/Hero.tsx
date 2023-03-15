@@ -7,10 +7,10 @@ import HeroImage from "../../../public/images/profile.jpg";
 const HeroSection = () => {
   return (
     <>
-      <section className="p-4 bg-black">
+      <section className="p-4 bg-black" id="home">
         <Wrapper>
           <div className="flex flex-col md:flex-row items-center">
-            <div className="flex-1 text-white">
+            <div className="flex-1 text-white text-center md:text-left">
               <p className="text-lg md:text-3xl leading-snug font-semibold mb-2 md:mb-4">
                 Hello, my name is
               </p>
@@ -20,7 +20,7 @@ const HeroSection = () => {
               <p className="text-2xl md:text-4xl leading-snug font-semibold mb-2 md:mb-4">
                 And, I&apos;m a <span className="text-red-600 font-bold">Web Developer</span>
               </p>
-              <div className="mt-6">
+              <div className="mt-6 flex md:block justify-center">
                 <Button text={"Hire me"} />
               </div>
             </div>

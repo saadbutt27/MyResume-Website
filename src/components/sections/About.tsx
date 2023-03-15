@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Wrapper from "../Wrapper";
 // import Heading from "../sharedComponents/Heading";
+
+
 import Button from "../sharedComponents/Button";
 import AboutImage from "../../../public/images/pic1-removebg-preview-crop-removebg-preview.jpg";
 const About = () => {
@@ -43,9 +45,13 @@ const About = () => {
                 enthusiastic learner.
               </p>
               <div>
-                <Link href={""}>
+                <a
+                href="/resume/Saad-Resume.pdf"
+                target="_blank"
+                // rel="noopener noreferrer"
+                >
                   <Button text="Download Resume" />
-                </Link>
+                </a>
               </div>
             </div>
           </div>

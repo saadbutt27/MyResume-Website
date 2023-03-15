@@ -4,7 +4,7 @@ import Button from "../sharedComponents/Button";
 const Contact = () => {
   return (
     <>
-      <section className="px-4 py-10">
+      <section className="px-4 py-10" id="contact">
         <Wrapper>
           <div className="text-center">
             <h2
@@ -14,7 +14,7 @@ const Contact = () => {
             </h2>
           </div>
 
-          <div className="grid grid-rows-2 md:grid-cols-2">
+          <div className="grid grid-rows-2 grid-cols-1 md:grid-cols-2 md:grid-rows-1">
             <div>
               <h3 className="text-2xl font-semibold mb-2">Get in Touch</h3>
               <p className="text-lg mb-2">

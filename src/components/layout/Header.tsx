@@ -7,33 +7,35 @@ const Header = () => {
       <header className="sticky top-0 bg-red-600 p-4 z-50">
         <Wrapper>
           <div className="flex justify-between items-center">
-            <div className=" text-white text-4xl md:text-5xl font-bold">MyPortfolio.</div>
+            <div className=" text-white text-4xl md:text-5xl font-bold">
+              MyPortfolio.
+            </div>
             <nav className=" hidden md:block">
               <ul className="inline-flex text-white text-xl font-semibold">
                 <li>
-                  <Link href={"#"} className="ml-8">
+                  <a href="#home" className="ml-8">
                     Home
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href={"#about"} className="ml-8">
+                  <a href="#about" className="ml-8">
                     About
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href={"#"} className="ml-8">
-                    Services
-                  </Link>
-                </li>
-                <li>
-                  <Link href={"#"} className="ml-8">
+                  <a href="#skills" className="ml-8">
                     Skills
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href={"#"} className="ml-8">
+                  <a href="#projects" className="ml-8">
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="ml-8">
                     Contact
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -53,10 +55,10 @@ const Header = () => {
                 />
               </svg>
             </div>
-          </div> 
+          </div>
         </Wrapper>
       </header>
-      </>
+    </>
   );
 };
 
