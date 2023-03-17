@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Wrapper from "../Wrapper";
 
 const Header = () => {
@@ -8,7 +7,7 @@ const Header = () => {
         <Wrapper>
           <div className="flex justify-between items-center">
             <div className=" text-white text-4xl md:text-5xl font-bold">
-              MyPortfolio.
+              <a href="#">MyPortfolio.</a>
             </div>
             <nav className=" hidden md:block">
               <ul className="inline-flex text-white text-xl font-semibold">
