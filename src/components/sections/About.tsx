@@ -33,13 +33,13 @@ const About = () => {
                 <span className="text-red-600">Developer</span>
               </h3>
               <p className="text-justify text-sm lg:text-lg mb-4">
-                Hi there! My name is [Saad Nisar Butt], and I&apos;m a web
+                Hi there! My name is Saad Nisar Butt, and I&apos;m a web
                 developer. I have always been passionate about technology and
                 its ability to bring people together and create meaningful
                 experiences. As a web developer, I&apos;m always looking for new
                 and exciting ways to bring my ideas to life.I have experience
                 with a wide range of technologies and frameworks, including
-                [Next JS, Blockchain, Metaverse technologies]. I&apos;m
+                Next JS, Blockchain, Metaverse technologies. I&apos;m
                 constantly learning and growing, and I believe that the best way
                 to stay on top of the latest trends and techniques is to be an
                 enthusiastic learner.
