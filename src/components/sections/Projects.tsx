@@ -173,7 +173,7 @@ const Projects = () => {
             </div>
             <div className="mt-2 mb-4 mx-4">
               <p className="text-lg  text-black font-semibold">
-                Tic Tac Toe Game
+                Cafe Street
               </p>
               <ul className="list-disc ml-5">
                 <li>HTML</li>
