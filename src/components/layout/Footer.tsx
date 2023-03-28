@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex justify-start md:justify-end">
               <a
                 target="_blank"
-                href="https://www.facebook.com/groups/panaverse"
+                href="https://www.facebook.com/saad.butt81"
               >
                 <div className="p-2 mr-4 my-4 rounded-full bg-white hover:scale-105 duration-200">
                   <svg
@@ -32,7 +32,7 @@ const Footer = () => {
               </a>
               <a
                 target="_blank"
-                href="https://www.youtube.com/@panaverse/streams"
+                href="https://instagram.com/saadbutt207?igshid=ZDdkNTZiNTM="
               >
                 <div className="p-2 mr-4 my-4 rounded-full bg-white hover:scale-105 duration-200">
                   <svg
@@ -48,7 +48,7 @@ const Footer = () => {
                   </svg>
                 </div>
               </a>
-              <a target="_blank" href="https://github.com/panaverse">
+              <a target="_blank" href="https://github.com/saadbutt27">
                 <div className="p-2 mr-4 my-4 rounded-full bg-white hover:scale-105 duration-200">
                   <svg
                     stroke="currentColor"
@@ -64,7 +64,7 @@ const Footer = () => {
                   </svg>
                 </div>
               </a>
-              <a target="_blank" href="https://twitter.com/Panaverse_edu">
+              <a target="_blank" href="https://twitter.com/saad_butt27?t=5bMQrXGokb9zto9P3jZSGg&s=09">
                 <div className="p-2 mr-4 my-4 rounded-full bg-white hover:scale-105 duration-200">
                   <svg
                     stroke="currentColor"
@@ -80,7 +80,7 @@ const Footer = () => {
                   </svg>
                 </div>
               </a>
-              <a target="_blank" href="https://twitter.com/Panaverse_edu">
+              <a target="_blank" href="https://www.linkedin.com/in/saad-butt-29853524a">
                 <div className="p-2 mr-4 my-4 rounded-full bg-white hover:scale-105 duration-200">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

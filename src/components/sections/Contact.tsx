@@ -4,7 +4,7 @@ import Button from "../sharedComponents/Button";
 const Contact = () => {
   return (
     <>
-      <section className="px-4 py-10" id="contact">
+      <section className="px-4 py-10 mb-10" id="contact">
         <Wrapper>
           <div className="text-center">
             <h2

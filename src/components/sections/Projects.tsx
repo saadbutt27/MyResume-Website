@@ -111,7 +111,10 @@ const Projects = () => {
                 className="rounded-md duration-300 group-hover:-translate-y-6 w-full"
               />
               <span className="capitalize text-base font-semibold text-red-600 duration-300 absolute -bottom-1 ml-2 mb-2 -translate-y-1 -z-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 group-hover:z-10">
-                <a href="https://saadbutt27.github.io/Aptech%20Project/" target="_blank">
+                <a
+                  href="https://saadbutt27.github.io/Aptech%20Project/"
+                  target="_blank"
+                >
                   view project
                 </a>
               </span>
@@ -172,9 +175,7 @@ const Projects = () => {
               </span>
             </div>
             <div className="mt-2 mb-4 mx-4">
-              <p className="text-lg  text-black font-semibold">
-                Cafe Street
-              </p>
+              <p className="text-lg  text-black font-semibold">Cafe Street</p>
               <ul className="list-disc ml-5">
                 <li>HTML</li>
                 <li>CSS</li>
