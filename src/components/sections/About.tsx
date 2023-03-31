@@ -48,7 +48,6 @@ const About = () => {
                 <a
                 href="/resume/Saad-Resume.pdf"
                 target="_blank"
-                // rel="noopener noreferrer"
                 >
                   <Button text="Download Resume" />
                 </a>

@@ -62,7 +62,7 @@ const Header = () => {
             </div>
             <div
               className={`${
-                open ? "translate-x-0" : "translate-x-[26rem]"
+                open ? "translate-x-0" : "translate-x-[35rem]"
               } block sm:hidden bg-black fixed -top-3.5 -ml-5 w-full duration-300`}
             >
               <div
