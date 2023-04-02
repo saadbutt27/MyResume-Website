@@ -1,6 +1,10 @@
 "use client";
 import Wrapper from "../Wrapper";
 import { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { GiCancel } from "react-icons/gi";
+import { ImCancelCircle } from "react-icons/im";
+import { RxCross1 } from "react-icons/rx";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -45,20 +49,7 @@ const Header = () => {
                 setOpen(!open);
               }}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                className="w-8 h-10 text-white"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
+              <GiHamburgerMenu className="w-8 h-10 text-white " />
             </div>
             <div
               className={`${
@@ -71,20 +62,7 @@ const Header = () => {
                   setOpen(!open);
                 }}
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  className="w-8 h-10 text-white"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
+                <RxCross1 className="w-8 h-10 text-white font-extrabold" />
               </div>
               <nav className="">
                 <ul className="text-white text-xl text-center font-semibold pt-12">
