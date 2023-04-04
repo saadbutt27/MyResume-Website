@@ -2,8 +2,6 @@
 import Wrapper from "../Wrapper";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { GiCancel } from "react-icons/gi";
-import { ImCancelCircle } from "react-icons/im";
 import { RxCross1 } from "react-icons/rx";
 
 const Header = () => {
