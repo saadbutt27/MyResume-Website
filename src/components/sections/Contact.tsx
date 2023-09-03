@@ -14,20 +14,21 @@ const Contact = () => {
             </h2>
           </div>
 
-          <div className="grid grid-rows-2 grid-cols-1 md:grid-cols-2 md:grid-rows-1">
+          <div className="grid grid-rows-2 grid-cols-1 md:grid-cols-2 md:grid-rows-1 gap-x-4">
             <div>
               <h3 className="text-2xl font-semibold mb-2">Get in Touch</h3>
               <p className="text-lg mb-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                quo sint accusantium magnam deserunt consectetur nemo a. Harum,
-                nobis minus?
+                Feel free to reach out if you'd like to discuss a project,
+                explore a partnership. Let's connect and explore the exciting
+                possibilities that await in the world of web development and
+                technology.
               </p>
               <div className="grid grid-cols-[3.5rem,1fr] items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="currentColor"
                   className="w-8 h-10 text-red-600"
                 >
@@ -47,7 +48,7 @@ const Contact = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="currentColor"
                   className="w-8 h-10 text-red-600"
                 >
@@ -67,7 +68,7 @@ const Contact = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="currentColor"
                   className="w-8 h-10 text-red-600"
                 >
