@@ -18,8 +18,8 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-2">Get in Touch</h3>
               <p className="text-lg mb-2">
-                Feel free to reach out if you'd like to discuss a project,
-                explore a partnership. Let's connect and explore the exciting
+                Feel free to reach out if you&apos;d like to discuss a project,
+                explore a partnership. Let&apos;s connect and explore the exciting
                 possibilities that await in the world of web development and
                 technology.
               </p>
