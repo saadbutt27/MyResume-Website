@@ -46,7 +46,7 @@ const About = () => {
               </p>
               <div>
                 <a
-                href="/resume/Saad's-Resume.pdf"
+                href="/resume/Saad Nisar - Resume.pdf"
                 target="_blank"
                 >
                   <Button text="Download Resume" />

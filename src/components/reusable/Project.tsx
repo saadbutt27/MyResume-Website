@@ -10,9 +10,9 @@ export default function Project({ project }: { project: ProjectT }) {
         <Image
           src={project.imgSrc}
           alt={project.altText}
-          height={200}
-          width={300}
-          className="rounded-md duration-300 group-hover:-translate-y-6 w-full"
+          height={500}
+          width={500}
+          className="rounded-md duration-300 group-hover:-translate-y-6 w-full h-52"
         />
         <span className="capitalize text-base font-semibold text-red-600 duration-300 absolute -bottom-1 ml-2 mb-2 -translate-y-1 -z-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 group-hover:z-10">
           <a href={project.href} target="_blank">
@@ -22,15 +22,19 @@ export default function Project({ project }: { project: ProjectT }) {
       </div>
       <div className="mt-2 mb-4 mx-4">
         <p className="text-lg  text-black font-semibold">{project.title}</p>
-        <ul
-          className={`grid list-disc ml-5 ${
-            project.techStack.length > 3 ? `grid-cols-2` : `grid-cols-1 `
-          }`}
-        >
-          {project.techStack.map((technology, index) => (
-            <li key={index}>{technology}</li>
-          ))}
-        </ul>
+          <div
+            className="h-[6rem] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200"
+          >
+            <ul
+              className={`grid list-disc ml-5 ${
+                project.techStack.length > 3 ? `grid-cols-2` : `grid-cols-1`
+              }`}
+            >
+              {project.techStack.map((technology, index) => (
+                <li key={index}>{technology}</li>
+              ))}
+            </ul>
+          </div>
       </div>
     </div>
   );

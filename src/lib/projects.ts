@@ -1,3 +1,6 @@
+import Qalaakar from "../../public/projects/qalaakar.png";
+import VehicleTracker from "../../public/projects/vehicle-tracker.png";
+import LMS from "../../public/projects/lms.png";
 import Ecommerce from "../../public/projects/ecommerce.png";
 import NextJSBlog from "../../public/projects/nextjsblog.png";
 import PanaverseDAO from "../../public/projects/panaversedao.png";
@@ -7,6 +10,51 @@ import TicTacToeGame from "../../public/projects/tictactoe.png";
 import CafeStreet from "../../public/projects/cafestreet.png";
 
 export const Projects = [
+  {
+    imgSrc: Qalaakar,
+    altText: "Qalaakar (Client Project)",
+    href: "https://qalaakar.com/",
+    title: "Qalaakar",
+    techStack: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "ShadcnUI",
+      "Neon Postgres Database",
+      "REST APIs",
+      "Sanity",
+      "Nodemailer",
+      "JWT",
+    ],
+  },
+  {
+    imgSrc: VehicleTracker,
+    altText: "Vehicle tracker",
+    href: "https://github.com/saadbutt27/vechicle-tracking-dashboard",
+    title: "Vehicle Tracking Dashboard",
+    techStack: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "ShadcnUI",
+      "Leaflet.js",
+      "OpenStreet Maps API",
+    ],
+  },
+  {
+    imgSrc: LMS,
+    altText: "LMS",
+    href: "https://github.com/saadbutt27/LMS",
+    title: "Learn&Grom (Learning Mangement System)",
+    techStack: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "NextAuth and JWT authentication",
+      "Rest APIs",
+      "MySQL Database",
+    ],
+  },
   {
     imgSrc: Ecommerce,
     altText: "Ecomerce Website",
