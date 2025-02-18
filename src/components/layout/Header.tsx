@@ -24,11 +24,11 @@ const Header = () => {
                     About
                   </a>
                 </li>
-                <li className="inline-block before:duration-300 before:content-[''] before:absolute before:opacity-0 before:bg-white before:h-0 before:w-20 before:-bottom-6 before:left-40 hover:before:h-1 hover:before:opacity-100">
+                {/* <li className="inline-block before:duration-300 before:content-[''] before:absolute before:opacity-0 before:bg-white before:h-0 before:w-20 before:-bottom-6 before:left-40 hover:before:h-1 hover:before:opacity-100">
                   <a href="#skills" className="ml-8">
                     Skills
                   </a>
-                </li>
+                </li> */}
                 <li className="inline-block before:duration-300 before:content-[''] before:absolute before:opacity-0 before:bg-white before:h-0 before:w-24 before:-bottom-6 before:left-[15.5rem] hover:before:h-1 hover:before:opacity-100">
                   <a href="#projects" className="ml-8">
                     Projects

@@ -7,8 +7,8 @@ const Footer = () => {
         <Wrapper>
           <div className="grid grid-rows-2 grid-cols-1 md:grid-cols-2 md:grid-rows-1">
             <div className="text-white text-lg font-semibold whitespace-pre-line">
-              Built by Saad Nisar Butt <br />
-              All rights are reserved. &#169; 2023.
+              Created by Saad Nisar Butt <br />
+              All rights are reserved. &#169; 2025.
             </div>
             <div className="flex justify-start md:justify-end">
               <a

@@ -1,6 +1,7 @@
+import LMS from "../../public/projects/lms.png";
 import Qalaakar from "../../public/projects/qalaakar.png";
 import VehicleTracker from "../../public/projects/vehicle-tracker.png";
-import LMS from "../../public/projects/lms.png";
+// import LMS from "../../public/projects/lms.png";
 import Ecommerce from "../../public/projects/ecommerce.png";
 import NextJSBlog from "../../public/projects/nextjsblog.png";
 import PanaverseDAO from "../../public/projects/panaversedao.png";
@@ -11,10 +12,30 @@ import CafeStreet from "../../public/projects/cafestreet.png";
 
 export const Projects = [
   {
+    imgSrc: LMS,
+    altText: "Learning Management System (Group Project)",
+    href: "https://learning-management-system-beta.vercel.app/",
+    title: "Learning Management System (Group Project)",
+    techStack: [
+      "Next.JS",
+      "Typescript",
+      "TailwindCSS",
+      "ShadcnUI",
+      "Neon Postgres Database",
+      "REST APIs",
+      "JWT. NextAuth",
+      "AWS S3",
+      "------------------",
+      "------------------",
+      "Student Login: Id: st246, Password: Saad211246",
+      "Teacher Login: Id: tc005, Password: Soohan005"
+    ],
+  },
+  {
     imgSrc: Qalaakar,
     altText: "Qalaakar (Client Project)",
     href: "https://qalaakar.com/",
-    title: "Qalaakar",
+    title: "Qalaakar (Client Project)",
     techStack: [
       "Next.JS",
       "Typescript",
@@ -41,20 +62,20 @@ export const Projects = [
       "OpenStreet Maps API",
     ],
   },
-  {
-    imgSrc: LMS,
-    altText: "LMS",
-    href: "https://github.com/saadbutt27/LMS",
-    title: "Learn&Grom (Learning Mangement System)",
-    techStack: [
-      "Next.JS",
-      "Typescript",
-      "TailwindCSS",
-      "NextAuth and JWT authentication",
-      "Rest APIs",
-      "MySQL Database",
-    ],
-  },
+  // {
+  //   imgSrc: LMS,
+  //   altText: "LMS",
+  //   href: "https://github.com/saadbutt27/LMS",
+  //   title: "Learn&Grom (Learning Mangement System)",
+  //   techStack: [
+  //     "Next.JS",
+  //     "Typescript",
+  //     "TailwindCSS",
+  //     "NextAuth and JWT authentication",
+  //     "Rest APIs",
+  //     "MySQL Database",
+  //   ],
+  // },
   {
     imgSrc: Ecommerce,
     altText: "Ecomerce Website",
